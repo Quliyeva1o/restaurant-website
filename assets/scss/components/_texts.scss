@@ -1,0 +1,25 @@
+.title {
+    @include font(50px, 700, $pop, $lightblack);
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.redtitle {
+    font-family: $cour;
+    font-size: 30px;
+    line-height: 1.2;
+    color: $red;
+}
+
+.p {
+    @include font(15px, 400, $mont, #666666);
+    line-height: 1.7;
+    margin: 0px;
+}
+
+.link{
+@include font(12px,400,$mont,$lightblack);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

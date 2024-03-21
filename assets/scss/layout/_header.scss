@@ -1,0 +1,91 @@
+@import "../utils/variables";
+
+header {
+
+    nav {
+        @include size(100%, 120px, 0, 0);
+        position: fixed;
+        align-items: center;
+        display: grid;
+        z-index: 999;
+        transition: all 0.4s;
+        border-top: 5px solid $red;
+
+
+        .logo {
+
+            @media screen and (max-width:1200px) {
+                height: 45px;
+            }
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .nav-links {
+
+            ul {
+                list-style: none;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 0;
+                display: none;
+
+                li {
+
+                    align-items: center;
+                    padding: 0 10px;
+                    display: flex;
+
+                    @media screen and (max-width:1200px) {
+                        padding: 4px;
+                    }
+
+                    a {
+                        align-items: center;
+                        text-transform: uppercase;
+                        color: white;
+                        font-size: 14px;
+                        font-family: $mont;
+                        padding: 10px;
+                        transition: .4s;
+
+                        &:hover {
+                           color: $red;
+                        }
+
+                        i {
+                            color: white;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        .icons {
+            a {
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 15px;
+
+
+                .fa-bars {
+                    font-size: 25px;
+
+                }
+
+                i {
+                    padding: 10px;
+                }
+
+            }
+
+
+
+        }
+    }
+}

@@ -1,0 +1,128 @@
+.slider-section{
+.carousel {
+    height: 100vh !important;
+
+    .carousel-control-next,
+    .carousel-control-prev {
+
+        @include size(60px, 60px, 0, 50%);
+
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: black;
+        opacity: 0;
+        top: 50%;
+        z-index: 200;
+        transition: .3s;
+
+        &:hover {
+            background-color: $red;
+        }
+
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon {
+            width: 14px;
+            height: 14px;
+        }
+    }
+
+    .carousel-control-prev {
+        left: 50px;
+    }
+
+    .carousel-control-next {
+
+        right: 50px;
+    }
+
+    .carousel-inner {
+        height: 100%;
+
+        .carousel-item {
+
+            height: 100%;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+
+            }
+
+
+            .carousel-caption {
+
+                align-content: center;
+                align-items: center;
+                left:0;
+                @include size(100%, 100%, 0, 0);
+                top: calc(50% - 120px);
+
+
+                h5 {
+                    font-family: $cour;
+                    font-size: 60px;
+                    @media screen and (max-width:768px) {
+                        font-size: 50px;
+                }}
+
+                h1 {
+                    text-transform: uppercase;
+                    letter-spacing: 10px;
+                    margin-bottom: 37px;
+                    @include font (90px, 700, $pop , #fff);
+                    @media screen and (max-width:768px) {
+                        @include font (70px, 700, $pop , #fff);
+
+                    }
+
+                }
+
+                a {
+
+                    @extend .button;
+                    width: 100%;
+                    transition: .4s;
+
+                    &:hover{
+                        @include colors($red,#fff)
+                    }
+
+
+                }
+            }
+
+
+
+        }
+
+    }
+
+
+    &:hover .carousel-control-next,
+    &:hover .carousel-control-prev {
+        opacity: 0.5;
+    }
+
+
+    .carousel-indicators button {
+        @include size(12px, 12px, 0, 50px);
+        margin-bottom: 30px;
+        display: block;
+        background-color: #958e88;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        transition: .3s;
+
+
+        &:hover {
+            border: 3px solid white;
+            background-color: $red;
+        }
+    }
+
+
+
+}
+
+}
