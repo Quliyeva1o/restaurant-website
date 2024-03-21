@@ -6,4 +6,23 @@
     line-height: 1.1;
     text-transform: uppercase;
 
+    &:hover {
+        @include colors($red, #fff)
+    }
+}
+
+.button2 {
+    @include font(22px, 500, $pop, $grayblack);
+    @include size(auto, 60px, 14px 25px, 10px);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: white;
+    text-align: center;
+    opacity: 0.9;
+    transition: .4s;
+
+    &:hover {
+        
+        @include colors($red,white)
+    }
 }

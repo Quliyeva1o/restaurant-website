@@ -22,4 +22,17 @@
 @include font(12px,400,$mont,$lightblack);
     text-transform: uppercase;
     letter-spacing: 1px;
+    &:hover {
+        color: $red;
+    }
+}
+
+
+.box-title{
+
+    @include font(22px,500,$pop,$grayblack);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+   
+   
 }

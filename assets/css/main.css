@@ -19,7 +19,7 @@ a {
   width: 100%;
 }
 
-.title, .italian-section .row .content h2 {
+.title, .our-menu-section .container .content h2, .discover-pato-section .text h2, .italian-section .row .content h2 {
   font-size: 50px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
@@ -29,14 +29,14 @@ a {
   letter-spacing: 6px;
 }
 
-.redtitle, .italian-section .row .content h5 {
+.redtitle, .our-menu-section .container .content h5, .discover-pato-section .text h5, .italian-section .row .content h5 {
   font-family: "Courgette", sans-serif;
   font-size: 30px;
   line-height: 1.2;
   color: #d61c22;
 }
 
-.p, .italian-section .row .content p {
+.p, .discover-boxes-section .boxes .discover-box p, .italian-section .row .content p {
   font-size: 15px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -45,13 +45,25 @@ a {
   margin: 0px;
 }
 
-.link, .italian-section .row .content a {
+.link, .discover-boxes-section .boxes .discover-box a, .italian-section .row .content a {
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+.link:hover, .discover-boxes-section .boxes .discover-box a:hover, .italian-section .row .content a:hover {
+  color: #d61c22;
+}
+
+.box-title, .discover-boxes-section .boxes .discover-box h4 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .button, .slider-section .carousel .carousel-inner .carousel-item .carousel-caption a {
@@ -66,6 +78,31 @@ a {
   background: white;
   line-height: 1.1;
   text-transform: uppercase;
+}
+.button:hover, .slider-section .carousel .carousel-inner .carousel-item .carousel-caption a:hover {
+  background-color: #d61c22;
+  color: #fff;
+}
+
+.button2, .our-menu-section .container .card a {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  width: auto;
+  height: 60px;
+  padding: 14px 25px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: white;
+  text-align: center;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+.button2:hover, .our-menu-section .container .card a:hover {
+  background-color: #d61c22;
+  color: white;
 }
 
 header nav {
@@ -218,10 +255,6 @@ header nav .icons a i {
   width: 100%;
   transition: 0.4s;
 }
-.slider-section .carousel .carousel-inner .carousel-item .carousel-caption a:hover {
-  background-color: #d61c22;
-  color: #fff;
-}
 .slider-section .carousel:hover .carousel-control-next, .slider-section .carousel:hover .carousel-control-prev {
   opacity: 0.5;
 }
@@ -244,8 +277,7 @@ header nav .icons a i {
 
 .italian-section {
   background-color: #EEEEEE;
-  padding-bottom: 105px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .italian-section .row {
   align-items: center;
@@ -253,15 +285,16 @@ header nav .icons a i {
 }
 .italian-section .row .content {
   align-content: center;
+  padding: 30px 0;
+  display: grid;
+  justify-content: center;
 }
 .italian-section .row .content p {
   padding: 15px;
+  max-width: 513px;
 }
 .italian-section .row .content a {
   transition: 0.4s;
-}
-.italian-section .row .content a:hover {
-  color: #d61c22;
 }
 .italian-section .row .content a i {
   padding-left: 5px;
@@ -284,4 +317,84 @@ header nav .icons a i {
   height: 100%;
   object-fit: cover;
   transition: 0.4s;
+}
+
+.discover-pato-section {
+  background-image: url(../../../assets/images/patoplacebg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.discover-pato-section .text {
+  text-align: center;
+  padding: 158px 0 135px 0;
+}
+.discover-pato-section .text h2 {
+  color: white;
+}
+
+.discover-boxes-section {
+  padding: 77px 0 133px 0;
+}
+.discover-boxes-section .boxes .discover-box {
+  padding: 15px;
+  display: block;
+}
+.discover-boxes-section .boxes .discover-box .img {
+  width: 100%;
+  margin-bottom: 35px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.discover-boxes-section .boxes .discover-box .img img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+.discover-boxes-section .boxes .discover-box .img img:hover {
+  transform: scale(1.1);
+}
+.discover-boxes-section .boxes .discover-box p {
+  margin-bottom: 20px;
+}
+.discover-boxes-section .boxes .discover-box a {
+  transition: 0.4s;
+}
+.discover-boxes-section .boxes .discover-box a i {
+  padding-left: 5px;
+}
+
+.our-menu-section {
+  background-color: rgb(247, 243, 238);
+  padding: 120px 0;
+}
+.our-menu-section .container .content {
+  align-content: center;
+  padding: 30px 0;
+  display: grid;
+  justify-content: center;
+}
+.our-menu-section .container .card {
+  border-radius: 10px;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+.our-menu-section .container .card:hover img {
+  transform: scale(1.1);
+}
+.our-menu-section .container .card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.our-menu-section .container .card a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */
