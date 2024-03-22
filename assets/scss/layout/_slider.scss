@@ -1,14 +1,59 @@
-.slider-section{
-.carousel {
+.first-slider {
     height: 100vh !important;
+
+
+    .carousel-caption {
+
+        align-content: center;
+        align-items: center;
+        left: 0;
+        @include size(100%, 100%, 0, 0);
+        top: calc(50% - 120px);
+
+
+        h5 {
+            font-family: $cour;
+            font-size: 60px;
+
+            @media screen and (max-width:$tablet-breakpoint) {
+                font-size: 50px;
+            }
+        }
+
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            margin-bottom: 37px;
+            @include font (90px, 700, $pop , #fff);
+
+            @media screen and (max-width:$tablet-breakpoint) {
+                @include font (70px, 700, $pop , #fff);
+
+            }
+
+        }
+
+        a {
+
+            @extend .button;
+            width: 100%;
+            transition: .4s;
+
+
+
+        }
+    }
+
+}
+
+.carousel {
+
 
     .carousel-control-next,
     .carousel-control-prev {
 
         @include size(60px, 60px, 0, 50%);
-
-        justify-content: center;
-        align-items: center;
+        @extend %center;
         position: absolute;
         background-color: black;
         opacity: 0;
@@ -29,11 +74,19 @@
 
     .carousel-control-prev {
         left: 50px;
+
+        @mixin for-phone{
+            left: 15px;
+        }
     }
 
     .carousel-control-next {
 
         right: 50px;
+
+        @mixin for-phone {
+            right: 15px;
+        }
     }
 
     .carousel-inner {
@@ -50,44 +103,6 @@
             }
 
 
-            .carousel-caption {
-
-                align-content: center;
-                align-items: center;
-                left:0;
-                @include size(100%, 100%, 0, 0);
-                top: calc(50% - 120px);
-
-
-                h5 {
-                    font-family: $cour;
-                    font-size: 60px;
-                    @media screen and (max-width:768px) {
-                        font-size: 50px;
-                }}
-
-                h1 {
-                    text-transform: uppercase;
-                    letter-spacing: 10px;
-                    margin-bottom: 37px;
-                    @include font (90px, 700, $pop , #fff);
-                    @media screen and (max-width:768px) {
-                        @include font (70px, 700, $pop , #fff);
-
-                    }
-
-                }
-
-                a {
-
-                    @extend .button;
-                    width: 100%;
-                    transition: .4s;
-
-
-
-                }
-            }
 
 
 
@@ -122,4 +137,135 @@
 
 }
 
+
+
+.events-section {
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 998;
+
+
+
+    .carousel {
+        height: 900px;
+
+        @mixin for-tablet{
+            height: 100vh;
+        }
+
+
+        @mixin for-phone{
+            height: 90vh;
+        }
+
+        .carousel-caption {
+
+
+           text-align: center;
+            left: 0;
+            right: 0;
+            height: 100%;
+            align-content: center;
+            top: 120px;
+            
+
+            h5 {
+                @extend .redtitle;
+            }
+
+            h2 {
+                @extend .title;
+                color: #fff;
+                margin-bottom: 52px;
+            }
+        }
+
+        .event-card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            min-height: 390px;
+            @extend %center;
+            align-items: normal;
+
+
+
+            .event-span {
+                @include font(12px, 400, $mont, #fff);
+                background-color: #cf2227;
+                width: 100%;
+                height: 50px;
+                transform-origin: center center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(calc(-100% + 25px), -25px)rotate(90deg);
+                display: flex;
+                @extend %center;
+                opacity: 0.9;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+
+
+
+                @media screen and (max-width:992px) {
+                    top: 0;
+                    left: 0;
+                    transform: translate(0, -0);
+
+                }
+            }
+
+
+            @media screen and (max-width:992px) {
+                width: 80%;
+                margin: auto auto;
+            }
+
+
+            @media screen and (max-width:567px) {
+                width: 100%
+            }
+
+            >div:last-of-type {
+                padding: 40px;
+            }
+
+            >div:first-of-type {
+                position: relative;
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover
+            }
+
+            h4 {
+                @extend .box-title;
+            }
+
+            p {
+                @extend .p;
+            }
+
+            a {
+                @extend .link;
+            }
+
+            .watch {
+                margin: 40px 0;
+
+                span:first-of-type {
+                    @extend .event-watch-red;
+                }
+
+                span:last-of-type {
+                    @extend .event-watch-gray;
+                }
+            }
+
+        }
+    }
 }

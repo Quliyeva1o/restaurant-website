@@ -36,3 +36,23 @@
    
    
 }
+
+
+.event-watch-red{
+   font-family: $mont;
+    font-weight: 700;
+    font-size: 50px;
+    color: $lightred;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.event-watch-gray{
+    font-family: $mont;
+    font-weight: 700;
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
