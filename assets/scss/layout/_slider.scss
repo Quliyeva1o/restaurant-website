@@ -75,7 +75,7 @@
     .carousel-control-prev {
         left: 50px;
 
-        @mixin for-phone{
+        @include for-phone{
             left: 15px;
         }
     }
@@ -84,7 +84,7 @@
 
         right: 50px;
 
-        @mixin for-phone {
+        @include for-phone {
             right: 15px;
         }
     }
@@ -151,12 +151,12 @@
     .carousel {
         height: 900px;
 
-        @mixin for-tablet{
+        @include for-tablet{
             height: 100vh;
         }
 
 
-        @mixin for-phone{
+        @include for-phone{
             height: 90vh;
         }
 

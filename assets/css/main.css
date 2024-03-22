@@ -268,8 +268,18 @@ header nav .icons a i {
 .carousel .carousel-control-prev {
   left: 50px;
 }
+@media screen and (max-width: 576px) {
+  .carousel .carousel-control-prev {
+    left: 15px;
+  }
+}
 .carousel .carousel-control-next {
   right: 50px;
+}
+@media screen and (max-width: 576px) {
+  .carousel .carousel-control-next {
+    right: 15px;
+  }
 }
 .carousel .carousel-inner {
   height: 100%;
@@ -309,6 +319,16 @@ header nav .icons a i {
 }
 .events-section .carousel {
   height: 900px;
+}
+@media screen and (max-width: 992px) {
+  .events-section .carousel {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .events-section .carousel {
+    height: 90vh;
+  }
 }
 .events-section .carousel .carousel-caption {
   text-align: center;
