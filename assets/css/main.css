@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+input:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0px 2px #ec1d25 !important;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px !important;
@@ -19,7 +24,7 @@ a {
   width: 100%;
 }
 
-.events-section .carousel .event-card .event-span, .events-section .carousel .event-card, .carousel .carousel-control-next,
+.specials form .button, .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form a, .specials form .reservation-section .content .form button .button, .reservation-section .content .form button .specials form .button, .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials, .our-video-section .video-btn .btn, .our-video-section .video-btn, .events-section .carousel .event-card .event-span, .events-section .carousel .event-card, .carousel .carousel-control-next,
 .carousel .carousel-control-prev {
   display: flex;
   align-items: center;
@@ -27,7 +32,8 @@ a {
   text-align: center;
 }
 
-.title, .our-menu-section .container .content h2, .discover-pato-section .text h2, .italian-section .row .content h2, .events-section .carousel .carousel-caption h2 {
+.title, .the-blog-section .title h2, .our-video-section .text h2, .our-menu-section .container .content h2, .discover-pato-section .text h2, .italian-section .row .content h2,
+.reservation-section .row .content h2, .events-section .carousel .carousel-caption h2 {
   font-size: 50px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
@@ -37,14 +43,20 @@ a {
   letter-spacing: 6px;
 }
 
-.redtitle, .our-menu-section .container .content h5, .discover-pato-section .text h5, .italian-section .row .content h5, .events-section .carousel .carousel-caption h5 {
+.redtitle, .the-blog-section .title h3, .the-blog-section .events-section .carousel .carousel-caption h2 h3, .events-section .carousel .carousel-caption .the-blog-section h2 h3, .the-blog-section .italian-section .row .content h2 h3, .italian-section .row .content .the-blog-section h2 h3,
+.the-blog-section .reservation-section .row .content h2 h3,
+.reservation-section .row .content .the-blog-section h2 h3, .the-blog-section .discover-pato-section .text h2 h3, .discover-pato-section .text .the-blog-section h2 h3, .the-blog-section .our-menu-section .container .content h2 h3, .our-menu-section .container .content .the-blog-section h2 h3, .the-blog-section .our-video-section .text h2 h3, .our-video-section .text .the-blog-section h2 h3, .our-video-section .text h5, .our-menu-section .container .content h5, .discover-pato-section .text h5, .italian-section .row .content h5,
+.reservation-section .row .content h5, .events-section .carousel .carousel-caption h5 {
   font-family: "Courgette", sans-serif;
   font-size: 30px;
   line-height: 1.2;
   color: #d61c22;
+  letter-spacing: normal;
 }
 
-.p, .discover-boxes-section .boxes .discover-box p, .italian-section .row .content p, .events-section .carousel .event-card p {
+.p, .discover-boxes-section .boxes .discover-box p,
+.the-blog-section .boxes .discover-box p, .italian-section .row .content p,
+.reservation-section .row .content p, .events-section .carousel .event-card p {
   font-size: 15px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -53,7 +65,9 @@ a {
   margin: 0px;
 }
 
-.link, .discover-boxes-section .boxes .discover-box a, .italian-section .row .content a, .events-section .carousel .event-card a {
+.link, .discover-boxes-section .boxes .discover-box a,
+.the-blog-section .boxes .discover-box a, .italian-section .row .content a,
+.reservation-section .row .content a, .events-section .carousel .event-card a {
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -61,11 +75,14 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.link:hover, .discover-boxes-section .boxes .discover-box a:hover, .italian-section .row .content a:hover, .events-section .carousel .event-card a:hover {
+.link:hover, .discover-boxes-section .boxes .discover-box a:hover,
+.the-blog-section .boxes .discover-box a:hover, .italian-section .row .content a:hover,
+.reservation-section .row .content a:hover, .events-section .carousel .event-card a:hover {
   color: #d61c22;
 }
 
-.box-title, .discover-boxes-section .boxes .discover-box h4, .events-section .carousel .event-card h4 {
+.box-title, .specials form label, .discover-boxes-section .boxes .discover-box h4,
+.the-blog-section .boxes .discover-box h4, .events-section .carousel .event-card h4, footer h4 {
   font-size: 22px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -93,7 +110,7 @@ a {
   letter-spacing: 1px;
 }
 
-.button, .first-slider .carousel-caption a {
+.button, .specials form .button, .reservation-section .content .form button .button, .reservation-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption a {
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -106,7 +123,7 @@ a {
   line-height: 1.1;
   text-transform: uppercase;
 }
-.button:hover, .first-slider .carousel-caption a:hover {
+.button:hover, .specials form .button:hover, .reservation-section .content .form button .button:hover, .reservation-section .content .form button .first-slider .carousel-caption a:hover, .first-slider .carousel-caption .reservation-section .content .form button a:hover, .first-slider .carousel-caption a:hover {
   background-color: #d61c22;
   color: #fff;
 }
@@ -195,6 +212,109 @@ header nav .icons a .fa-bars {
 }
 header nav .icons a i {
   padding: 10px;
+}
+
+footer {
+  background-color: #222222;
+  padding: 40px 0 0 0;
+}
+footer h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 33px;
+}
+footer .container {
+  padding-bottom: 70px;
+}
+footer .container .latest-twitter {
+  margin-bottom: 25px;
+}
+footer .container .col-lg-4 {
+  padding: 50px 15px;
+}
+@media screen and (max-width: 992px) {
+  footer .container .col-lg-4 {
+    padding: 20px 0;
+  }
+}
+footer .container .col-lg-4 .contact li {
+  margin-bottom: 14px;
+}
+footer .container .col-lg-4 div li,
+footer .container .col-lg-4 div p,
+footer .container .col-lg-4 div span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #999999;
+  line-height: 1.7;
+}
+footer .container .col-lg-4 div a {
+  color: #ec1d25;
+}
+footer .container .col-lg-4 div span {
+  color: #555555;
+}
+footer .container .col-lg-4 div ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 992px) {
+  footer .container .col-lg-4 div ul {
+    margin-bottom: 40px;
+  }
+}
+footer .container .col-lg-4 div i {
+  display: inline-block;
+  color: #cccccc;
+}
+footer .gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  width: 100%;
+}
+footer .gallery a {
+  display: flex;
+}
+footer .gallery a img {
+  width: 100%;
+  object-fit: cover;
+}
+footer .footer-end {
+  background-color: #111111 !important;
+  padding: 22px 0;
+}
+footer .footer-end .container {
+  align-items: center;
+}
+footer .footer-end .container .social a {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 18px;
+}
+footer .footer-end .container .get-theme {
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #999999;
+  font-family: "Montserrat", sans-serif;
+}
+footer .footer-end .container .get-theme p {
+  align-items: center;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+footer .footer-end .container .get-theme a {
+  color: #cccccc;
+  transition: 0.3s;
+}
+footer .footer-end .container .get-theme a:hover {
+  color: #ec1d25;
 }
 
 .first-slider {
@@ -330,6 +450,9 @@ header nav .icons a i {
     height: 90vh;
   }
 }
+.events-section .carousel .carousel-indicators {
+  bottom: 50px;
+}
 .events-section .carousel .carousel-caption {
   text-align: center;
   left: 0;
@@ -398,43 +521,53 @@ header nav .icons a i {
 .events-section .carousel .event-card .watch {
   margin: 40px 0;
 }
-.italian-section {
+.italian-section,
+.reservation-section {
   background-color: #EEEEEE;
   padding: 120px 0;
 }
-.italian-section .row {
+.italian-section .row,
+.reservation-section .row {
   align-items: center;
   justify-content: space-between;
 }
-.italian-section .row .content {
+.italian-section .row .content,
+.reservation-section .row .content {
   align-content: center;
   padding: 30px 0;
   display: grid;
   justify-content: center;
 }
-.italian-section .row .content p {
+.italian-section .row .content p,
+.reservation-section .row .content p {
   padding: 15px;
   max-width: 513px;
 }
-.italian-section .row .content a {
+.italian-section .row .content a,
+.reservation-section .row .content a {
   transition: 0.4s;
 }
-.italian-section .row .content a i {
+.italian-section .row .content a i,
+.reservation-section .row .content a i {
   padding-left: 5px;
 }
-.italian-section .row .image-block {
+.italian-section .row .image-block,
+.reservation-section .row .image-block {
   display: flex;
   justify-content: center;
 }
-.italian-section .row .image-block .image {
+.italian-section .row .image-block .image,
+.reservation-section .row .image-block .image {
   max-width: 390px;
   overflow: hidden;
   border-radius: 10px;
 }
-.italian-section .row .image-block .image:hover img {
+.italian-section .row .image-block .image:hover img,
+.reservation-section .row .image-block .image:hover img {
   transform: scale(1.1);
 }
-.italian-section .row .image-block .image img {
+.italian-section .row .image-block .image img,
+.reservation-section .row .image-block .image img {
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -457,34 +590,51 @@ header nav .icons a i {
   color: white;
 }
 
-.discover-boxes-section {
+.discover-boxes-section,
+.the-blog-section {
   padding: 77px 0 133px 0;
 }
-.discover-boxes-section .boxes .discover-box {
+.discover-boxes-section .boxes .discover-box,
+.the-blog-section .boxes .discover-box {
   padding: 15px;
   display: block;
 }
-.discover-boxes-section .boxes .discover-box .img {
+.discover-boxes-section .boxes .discover-box .img,
+.the-blog-section .boxes .discover-box .img {
   width: 100%;
   margin-bottom: 35px;
   overflow: hidden;
   border-radius: 10px;
 }
-.discover-boxes-section .boxes .discover-box .img img {
+.discover-boxes-section .boxes .discover-box .img img,
+.the-blog-section .boxes .discover-box .img img {
   width: 100%;
   object-fit: cover;
   transition: 0.4s;
 }
-.discover-boxes-section .boxes .discover-box .img img:hover {
+.discover-boxes-section .boxes .discover-box .img img:hover,
+.the-blog-section .boxes .discover-box .img img:hover {
   transform: scale(1.1);
 }
-.discover-boxes-section .boxes .discover-box p {
+.discover-boxes-section .boxes .discover-box h4,
+.the-blog-section .boxes .discover-box h4 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.discover-boxes-section .boxes .discover-box h4:hover,
+.the-blog-section .boxes .discover-box h4:hover {
+  color: #d61c22;
+}
+.discover-boxes-section .boxes .discover-box p,
+.the-blog-section .boxes .discover-box p {
   margin-bottom: 20px;
 }
-.discover-boxes-section .boxes .discover-box a {
+.discover-boxes-section .boxes .discover-box a,
+.the-blog-section .boxes .discover-box a {
   transition: 0.4s;
 }
-.discover-boxes-section .boxes .discover-box a i {
+.discover-boxes-section .boxes .discover-box a i,
+.the-blog-section .boxes .discover-box a i {
   padding-left: 5px;
 }
 
@@ -519,4 +669,168 @@ header nav .icons a i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.reservation-section .content {
+  justify-content: normal !important;
+}
+.reservation-section .content .form {
+  text-align: start;
+}
+.reservation-section .content .form .inputs {
+  padding: 0 15px;
+}
+.reservation-section .content .form .inputs label,
+.reservation-section .content .form .inputs select {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+.reservation-section .content .form .inputs div {
+  border: 2px solid #d9d9d9;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 23px;
+  margin-top: 3px;
+  border-radius: 10px;
+}
+.reservation-section .content .form .inputs div input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  border-radius: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.reservation-section .content .form .inputs div input:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0px 2px #ec1d25 !important;
+}
+.reservation-section .content .form .inputs div select {
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+}
+.reservation-section .content .form button {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.reservation-section .content .form button .button, .reservation-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .reservation-section .content .form button a {
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.our-video-section {
+  background-image: url(../../../assets/images/ourvideobg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 2.81667px;
+}
+.our-video-section .text {
+  text-align: center;
+  padding: 225px 0 150px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.our-video-section .text h2 {
+  color: white;
+}
+.our-video-section .video-btn {
+  margin: 40px 0;
+}
+.our-video-section .video-btn .btn {
+  border-radius: 50%;
+  padding: 25px 28px;
+  background-color: white;
+  transition: 0.4s;
+}
+.our-video-section .video-btn .btn:hover {
+  background-color: rgba(236, 29, 37, 0.5);
+  transform: scale(1.2);
+}
+
+.the-blog-section {
+  padding: 115px 0px 123px 0;
+}
+.the-blog-section .title h3, .the-blog-section .events-section .carousel .carousel-caption h2 h3, .events-section .carousel .carousel-caption .the-blog-section h2 h3, .the-blog-section .italian-section .row .content h2 h3, .italian-section .row .content .the-blog-section h2 h3,
+.the-blog-section .reservation-section .row .content h2 h3,
+.reservation-section .row .content .the-blog-section h2 h3, .the-blog-section .discover-pato-section .text h2 h3, .discover-pato-section .text .the-blog-section h2 h3, .the-blog-section .our-menu-section .container .content h2 h3, .our-menu-section .container .content .the-blog-section h2 h3, .the-blog-section .our-video-section .text h2 h3, .our-video-section .text .the-blog-section h2 h3 {
+  text-transform: capitalize;
+}
+.the-blog-section .boxes {
+  padding-top: 30px;
+}
+.the-blog-section .img {
+  position: relative;
+}
+.the-blog-section .img .time-blog {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  bottom: 11px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 15px;
+  border-radius: 4px;
+}
+
+.specials {
+  padding: 85px 0;
+  background-color: #EEEEEE;
+}
+.specials form {
+  align-items: center;
+}
+.specials form label {
+  margin: 10px 0;
+}
+.specials form .mail {
+  width: 270px;
+  height: 50px;
+  padding: 0;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px 15px;
+  background-color: white;
+  position: relative;
+  border: 2px solid #d9d9d9;
+}
+.specials form .mail i {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 18px;
+}
+.specials form .mail input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  padding-left: 20px;
+  border: none;
+}
+.specials form .mail input:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #ec1d25 !important;
+}
+.specials form .button, .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form a, .specials form .reservation-section .content .form button .button, .reservation-section .content .form button .specials form .button, .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form .reservation-section .content .form button a {
+  margin: 10px auto;
+  background-color: #111111;
+  color: #fff;
+  display: flex;
+  width: 160px !important;
+  transition: 0.4s;
 }/*# sourceMappingURL=main.css.map */

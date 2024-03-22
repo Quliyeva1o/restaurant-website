@@ -117,7 +117,10 @@
     }
 
 
-    .carousel-indicators button {
+    .carousel-indicators
+
+        
+     button {
         @include size(12px, 12px, 0, 50px);
         margin-bottom: 30px;
         display: block;
@@ -134,8 +137,7 @@
     }
 
 
-
-}
+    }
 
 
 
@@ -160,6 +162,7 @@
             height: 90vh;
         }
 
+        .carousel-indicators{bottom: 50px;}
         .carousel-caption {
 
 

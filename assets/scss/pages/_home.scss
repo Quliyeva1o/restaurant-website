@@ -1,4 +1,5 @@
-.italian-section {
+.italian-section,
+.reservation-section {
 
     background-color: #EEEEEE;
     padding: 120px 0;
@@ -91,7 +92,8 @@
 }
 
 
-.discover-boxes-section {
+.discover-boxes-section,
+.the-blog-section {
     padding: 77px 0 133px 0;
 
     .boxes {
@@ -119,6 +121,13 @@
 
             h4 {
                 @extend .box-title;
+                cursor: pointer;
+                transition: .3s;
+
+                &:hover {
+                    color: $red;
+
+                }
             }
 
             p {
@@ -162,34 +171,252 @@
 
             h2 {
                 @extend .title;
-            }}
+            }
+        }
 
-            .card {
-                border-radius: 10px;
-                position: relative;
-                margin-top: 30px;
-                overflow: hidden;
-                border: none;
+        .card {
+            border-radius: 10px;
+            position: relative;
+            margin-top: 30px;
+            overflow: hidden;
+            border: none;
 
-                &:hover img {
-                    transform: scale(1.1);
+            &:hover img {
+                transform: scale(1.1);
+            }
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                transition: .4s;
+
+            }
+
+            a {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                @extend .button2;
+            }
+        }
+    }
+}
+
+
+.reservation-section {
+    .content {
+        justify-content: normal !important;
+
+        .form {
+            text-align: start;
+
+            .inputs {
+                padding: 0 15px;
+
+                label,
+                select {
+                    font-family: $mont;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #555555;
                 }
 
-                img {
-                    object-fit: cover;
+                div {
+                    border: 2px solid #d9d9d9;
                     width: 100%;
-                    height: 100%;
-                    transition: .4s;
+                    height: 50px;
+                    margin-bottom: 23px;
+                    margin-top: 3px;
+                    border-radius: 10px;
 
+                    input {
+                        font-family: $mont;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #666666;
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+
+
+                        &:focus-visible {
+                            outline: none;
+                            box-shadow: 0 0 0px 2px #ec1d25 !important;
+                        }
+
+                    }
+
+                    select {
+                        border: 2px solid #d9d9d9;
+                        border-radius: 4px;
+                    }
                 }
+            }
 
-                a {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    @extend .button2;
+            button {
+                border: none;
+                display: block;
+                margin: 0 auto;
+                margin-top: 10px;
+
+                .button {
+                    @extend .button;
+                    justify-content: center;
+
+
+                    @include colors(#000, #fff)
                 }
             }
         }
     }
+}
+
+
+.our-video-section {
+    background-image: url(../../../assets/images/ourvideobg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 2.81667px;
+
+
+    .text {
+        text-align: center;
+        padding: 225px 0 150px 0;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        h5 {
+            @extend .redtitle;
+        }
+
+        h2 {
+            @extend .title;
+            color: white;
+        }
+    }
+
+    .video-btn {
+        @extend %center;
+        margin: 40px 0;
+
+        .btn {
+            border-radius: 50%;
+            padding: 25px 28px;
+            @extend %center;
+            background-color: white;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: rgba(236, 29, 37, 0.5);
+                transform: scale(1.2);
+
+            }
+        }
+    }
+}
+
+
+
+.the-blog-section {
+    padding: 115px 0px 123px 0;
+
+    .title {
+
+        h2 {
+            @extend .title;
+        }
+
+        h3 {
+            @extend .redtitle;
+            text-transform: capitalize;
+
+        }
+
+    }
+
+    .boxes {
+        padding-top: 30px;
+    }
+
+    .img {
+        position: relative;
+
+        .time-blog {
+
+            @include font(12px, 400, $mont, #fff);
+            position: absolute;
+            left: 14px;
+            bottom: 11px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 3px 15px;
+            border-radius: 4px;
+        }
+    }
+}
+
+
+.specials {
+    padding: 85px 0;
+    @extend %center;
+    background-color: #EEEEEE;
+
+    form {
+      
+        align-items: center;
+
+        label {
+            @extend .box-title;
+            margin: 10px 0;
+        }
+
+        .mail {
+            @include size(270px, 50px, 0, 10px);
+            position: relative;
+            margin: 10px 15px;
+            background-color: white;
+            position: relative;
+            border: 2px solid #d9d9d9;
+
+
+
+            i {
+                position: absolute;
+                right: 0px;
+                top: 50%;
+                transform: translateY(-50%);
+                margin-right: 18px;
+            }
+
+
+            input {
+                @include size(100%, 100%, 10px, 10px);
+                @include font(14px, 400, $mont, #666666);
+                padding-left: 20px;
+                border: none;
+
+                &:focus-visible {
+                    outline: none;
+                    box-shadow: 0 0 0 2px #ec1d25 !important;
+                }
+
+
+            }
+        }
+
+        .button {
+         
+           margin: 10px auto;
+            @extend .button;
+            @include colors($darkblack, #fff);
+            display: flex;
+            width: 160px !important;
+            @extend %center;
+            transition: .4s;
+
+        }
+    }
+}

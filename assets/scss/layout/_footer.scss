@@ -1,0 +1,129 @@
+footer {
+    background-color: $lightblack;
+    padding: 40px 0 0 0;
+
+    h4 {
+        @extend .box-title;
+        font-size: 18px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #fff;
+        margin-bottom: 33px;
+    }
+
+    .container {
+        padding-bottom: 70px;
+        .latest-twitter {
+            margin-bottom: 25px;
+        }
+
+        .col-lg-4 {
+            padding: 50px 15px;
+
+            @include for-tablet{
+                padding: 20px 0;
+            }
+
+            .contact li {
+                margin-bottom: 14px;
+            }
+
+            div {
+
+                li,
+                p,
+                span {
+
+                    font-family: $mont;
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #999999;
+                    line-height: 1.7;
+
+
+                }
+
+                a {
+                    color: $lightred;
+                }
+
+                span {
+                    color: #555555;
+                }
+
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin-bottom: 70px;
+
+                    @include for-tablet{
+                        margin-bottom: 40px;
+                    }
+
+                }
+
+                i {
+                    display: inline-block;
+                    color: #cccccc;
+                }
+            }
+        }
+    }
+
+
+    .gallery {
+      
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        width: 100%;
+
+
+        a {
+            display: flex;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+    .footer-end {
+        background-color:$darkblack!important;
+        padding: 22px 0;
+
+        .container{align-items: center;
+        .social {
+            a {
+                color: #fff;
+                font-size: 15px;
+                padding-left: 18px;
+
+            }
+        }
+
+        .get-theme {
+            align-items: center;
+            font-size: 14px;
+            line-height: 1.7;
+            color: #999999;
+            font-family:$mont;
+            p{
+                align-items: center;
+                margin-bottom: 0;
+                margin-right: 10px;
+            }
+            a{
+                color:#cccccc;
+                transition: .3s;
+                &:hover{
+                    color: $lightred;
+                }
+            }
+        }
+    }
+}}
