@@ -1,0 +1,15 @@
+.about-hero-section {
+    background-image: url(../../../assets/images/aboutherobgi.jpg);
+    @extend .hero;
+    @extend %center;
+
+    h1 {
+        @extend .title;
+        color: white;
+        @include for-phone{
+            font-size: 30px;
+        }
+
+    }
+}
+

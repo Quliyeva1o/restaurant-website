@@ -71,10 +71,7 @@
 
 .discover-pato-section {
     background-image: url(../../../assets/images/patoplacebg.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @extend .fixed;
 
     .text {
         text-align: center;
@@ -266,6 +263,7 @@
                 .button {
                     @extend .button;
                     justify-content: center;
+                    transition: .3s;
 
 
                     @include colors(#000, #fff)
@@ -278,9 +276,7 @@
 
 .our-video-section {
     background-image: url(../../../assets/images/ourvideobg.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @extend .fixed;
     background-position: center 2.81667px;
 
 
@@ -365,7 +361,7 @@
     background-color: #EEEEEE;
 
     form {
-      
+
         align-items: center;
 
         label {
@@ -408,8 +404,8 @@
         }
 
         .button {
-         
-           margin: 10px auto;
+
+            margin: 10px auto;
             @extend .button;
             @include colors($darkblack, #fff);
             display: flex;

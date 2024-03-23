@@ -24,7 +24,8 @@ input:focus-visible {
   width: 100%;
 }
 
-.specials form .button, .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form a, .specials form .reservation-section .content .form button .button, .reservation-section .content .form button .specials form .button, .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials, .our-video-section .video-btn .btn, .our-video-section .video-btn, .events-section .carousel .event-card .event-span, .events-section .carousel .event-card, .carousel .carousel-control-next,
+.reservation-hero-section, .lunch-section h2,
+.dinner-section h2, .menu-hero-section, .gallery-hero-section, .contact-hero-section, .blog-hero-section, .about-hero-section, .specials form .button, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .reservation-section .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .button, .book-table-section .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form a, .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials form .reservation-section .book-table-section .content .form button .button, .specials form .book-table-section .reservation-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .specials form .reservation-section .book-table-section .content .form button .button, .specials form .book-table-section .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .reservation-section .specials form .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .specials form .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .specials form .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .specials form .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials, .our-video-section .video-btn .btn, .our-video-section .video-btn, .events-section .carousel .event-card .event-span, .events-section .carousel .event-card, .carousel .carousel-control-next,
 .carousel .carousel-control-prev {
   display: flex;
   align-items: center;
@@ -32,8 +33,40 @@ input:focus-visible {
   text-align: center;
 }
 
-.title, .the-blog-section .title h2, .our-video-section .text h2, .our-menu-section .container .content h2, .discover-pato-section .text h2, .italian-section .row .content h2,
-.reservation-section .row .content h2, .events-section .carousel .carousel-caption h2 {
+.redcircle, .customers-say-section .carousel-item .image {
+  border: 4px solid #ec1d25;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 118px;
+  height: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fixed, .lunch-section,
+.dinner-section, .our-video-section, .discover-pato-section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero, .reservation-hero-section, .menu-hero-section, .gallery-hero-section, .contact-hero-section, .blog-hero-section, .about-hero-section {
+  padding: 160px 15px 80px 15px;
+  width: 100%;
+  min-height: 545px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title, .book-table-section h2, .the-blog-section .book-table-section h2 h2, .book-table-section .the-blog-section h2 h2, .reservation-hero-section h1, .the-blog-section .reservation-hero-section h1 h2, .reservation-hero-section .the-blog-section h1 h2, .lunch-section h2,
+.dinner-section h2, .the-blog-section .lunch-section h2 h2, .lunch-section .the-blog-section h2 h2,
+.the-blog-section .dinner-section h2 h2,
+.dinner-section .the-blog-section h2 h2, .menu-hero-section h1, .the-blog-section .menu-hero-section h1 h2, .menu-hero-section .the-blog-section h1 h2, .gallery-hero-section h1, .the-blog-section .gallery-hero-section h1 h2, .gallery-hero-section .the-blog-section h1 h2, .contact-hero-section h1, .the-blog-section .contact-hero-section h1 h2, .contact-hero-section .the-blog-section h1 h2, .blog-hero-section h1, .the-blog-section .blog-hero-section h1 h2, .blog-hero-section .the-blog-section h1 h2, .about-hero-section h1, .the-blog-section .about-hero-section h1 h2, .about-hero-section .the-blog-section h1 h2, .the-blog-section .title h2, .the-blog-section .customers-say-section h2 h2, .customers-say-section .the-blog-section h2 h2, .our-video-section .text h2, .our-menu-section .container .content h2, .discover-pato-section .text h2, .italian-section .row .content h2,
+.reservation-section .row .content h2, .customers-say-section h2, .events-section .carousel .carousel-caption h2 {
   font-size: 50px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
@@ -43,10 +76,12 @@ input:focus-visible {
   letter-spacing: 6px;
 }
 
-.redtitle, .the-blog-section .title h3, .the-blog-section .events-section .carousel .carousel-caption h2 h3, .events-section .carousel .carousel-caption .the-blog-section h2 h3, .the-blog-section .italian-section .row .content h2 h3, .italian-section .row .content .the-blog-section h2 h3,
+.redtitle, .book-table-section h5, .the-blog-section .title h3, .the-blog-section .book-table-section h2 h3, .book-table-section .the-blog-section h2 h3, .the-blog-section .reservation-hero-section h1 h3, .reservation-hero-section .the-blog-section h1 h3, .the-blog-section .lunch-section h2 h3, .lunch-section .the-blog-section h2 h3,
+.the-blog-section .dinner-section h2 h3,
+.dinner-section .the-blog-section h2 h3, .the-blog-section .menu-hero-section h1 h3, .menu-hero-section .the-blog-section h1 h3, .the-blog-section .gallery-hero-section h1 h3, .gallery-hero-section .the-blog-section h1 h3, .the-blog-section .contact-hero-section h1 h3, .contact-hero-section .the-blog-section h1 h3, .the-blog-section .blog-hero-section h1 h3, .blog-hero-section .the-blog-section h1 h3, .the-blog-section .about-hero-section h1 h3, .about-hero-section .the-blog-section h1 h3, .the-blog-section .events-section .carousel .carousel-caption h2 h3, .events-section .carousel .carousel-caption .the-blog-section h2 h3, .the-blog-section .customers-say-section h2 h3, .customers-say-section .the-blog-section h2 h3, .the-blog-section .italian-section .row .content h2 h3, .italian-section .row .content .the-blog-section h2 h3,
 .the-blog-section .reservation-section .row .content h2 h3,
 .reservation-section .row .content .the-blog-section h2 h3, .the-blog-section .discover-pato-section .text h2 h3, .discover-pato-section .text .the-blog-section h2 h3, .the-blog-section .our-menu-section .container .content h2 h3, .our-menu-section .container .content .the-blog-section h2 h3, .the-blog-section .our-video-section .text h2 h3, .our-video-section .text .the-blog-section h2 h3, .our-video-section .text h5, .our-menu-section .container .content h5, .discover-pato-section .text h5, .italian-section .row .content h5,
-.reservation-section .row .content h5, .events-section .carousel .carousel-caption h5 {
+.reservation-section .row .content h5, .customers-say-section h5, .events-section .carousel .carousel-caption h5 {
   font-family: "Courgette", sans-serif;
   font-size: 30px;
   line-height: 1.2;
@@ -54,9 +89,11 @@ input:focus-visible {
   letter-spacing: normal;
 }
 
-.p, .discover-boxes-section .boxes .discover-box p,
+.p, .book-table-section .reserve p, .menu-section span,
+.lunch-menu-section span,
+.dinner-menu-section span, .discover-boxes-section .boxes .discover-box p,
 .the-blog-section .boxes .discover-box p, .italian-section .row .content p,
-.reservation-section .row .content p, .events-section .carousel .event-card p {
+.reservation-section .row .content p, .customers-say-section .carousel-item p, .events-section .carousel .event-card p {
   font-size: 15px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -65,9 +102,11 @@ input:focus-visible {
   margin: 0px;
 }
 
-.link, .discover-boxes-section .boxes .discover-box a,
+.link, .menu-section a,
+.lunch-menu-section a,
+.dinner-menu-section a, .discover-boxes-section .boxes .discover-box a,
 .the-blog-section .boxes .discover-box a, .italian-section .row .content a,
-.reservation-section .row .content a, .events-section .carousel .event-card a {
+.reservation-section .row .content a, .customers-say-section .carousel-item .name p, .events-section .carousel .event-card a {
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -75,13 +114,17 @@ input:focus-visible {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.link:hover, .discover-boxes-section .boxes .discover-box a:hover,
+.link:hover, .menu-section a:hover,
+.lunch-menu-section a:hover,
+.dinner-menu-section a:hover, .discover-boxes-section .boxes .discover-box a:hover,
 .the-blog-section .boxes .discover-box a:hover, .italian-section .row .content a:hover,
-.reservation-section .row .content a:hover, .events-section .carousel .event-card a:hover {
+.reservation-section .row .content a:hover, .customers-say-section .carousel-item .name p:hover, .events-section .carousel .event-card a:hover {
   color: #d61c22;
 }
 
-.box-title, .specials form label, .discover-boxes-section .boxes .discover-box h4,
+.box-title, .book-table-section .reserve h4, .menu-section h3,
+.lunch-menu-section h3,
+.dinner-menu-section h3, .specials form label, .discover-boxes-section .boxes .discover-box h4,
 .the-blog-section .boxes .discover-box h4, .events-section .carousel .event-card h4, footer h4 {
   font-size: 22px;
   font-weight: 500;
@@ -110,7 +153,7 @@ input:focus-visible {
   letter-spacing: 1px;
 }
 
-.button, .specials form .button, .reservation-section .content .form button .button, .reservation-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption a {
+.button, .book-table-section .content .form button .button, .book-table-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .book-table-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .button, .book-table-section .reservation-section .content .form button .button, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .button, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .reservation-section .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .button, .book-table-section .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .reservation-section .content .form button .button, .reservation-section .book-table-section .content .form button .button, .book-table-section .reservation-section .content .form button .button, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .button, .book-table-section .reservation-section .content .form button .button, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .reservation-section .specials form .book-table-section .content .form button .button, .specials form .book-table-section .reservation-section .content .form button .button, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .reservation-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption a {
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -123,7 +166,7 @@ input:focus-visible {
   line-height: 1.1;
   text-transform: uppercase;
 }
-.button:hover, .specials form .button:hover, .reservation-section .content .form button .button:hover, .reservation-section .content .form button .first-slider .carousel-caption a:hover, .first-slider .carousel-caption .reservation-section .content .form button a:hover, .first-slider .carousel-caption a:hover {
+.button:hover, .book-table-section .content .form button .button:hover, .book-table-section .content .form button .first-slider .carousel-caption a:hover, .first-slider .carousel-caption .book-table-section .content .form button a:hover, .specials form .button:hover, .reservation-section .content .form button .button:hover, .reservation-section .content .form button .first-slider .carousel-caption a:hover, .first-slider .carousel-caption .reservation-section .content .form button a:hover, .first-slider .carousel-caption a:hover {
   background-color: #d61c22;
   color: #fff;
 }
@@ -159,7 +202,7 @@ header nav {
   display: grid;
   z-index: 999;
   transition: all 0.4s;
-  border-top: 5px solid #d61c22;
+  border-top: 5px solid #ec1d25;
 }
 @media screen and (max-width: 1200px) {
   header nav .logo {
@@ -521,6 +564,47 @@ footer .footer-end .container .get-theme a:hover {
 .events-section .carousel .event-card .watch {
   margin: 40px 0;
 }
+.customers-say-section {
+  text-align: center;
+  padding-top: 115px;
+  margin-bottom: 40px;
+}
+.customers-say-section .carousel-indicators {
+  margin-bottom: 50px;
+}
+.customers-say-section .carousel-indicators .active {
+  background-color: #ec1d25;
+}
+.customers-say-section .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+}
+.customers-say-section .carousel-item {
+  margin: 50px 0 180px 0;
+}
+.customers-say-section .carousel-item .image {
+  margin-bottom: 33px;
+}
+.customers-say-section .carousel-item p {
+  font-size: 18px;
+  max-width: 890px;
+  text-align: center;
+  margin: 0 auto;
+}
+.customers-say-section .carousel-item .stars {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #ec1d25;
+  letter-spacing: -2px;
+}
+.customers-say-section .carousel-item .name p {
+  margin-top: 32px;
+  font-size: 12px;
+}
+.customers-say-section .carousel-item .name p:hover {
+  color: #222222;
+}
+
 .italian-section,
 .reservation-section {
   background-color: #EEEEEE;
@@ -577,10 +661,6 @@ footer .footer-end .container .get-theme a:hover {
 
 .discover-pato-section {
   background-image: url(../../../assets/images/patoplacebg.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .discover-pato-section .text {
   text-align: center;
@@ -720,17 +800,15 @@ footer .footer-end .container .get-theme a:hover {
   margin: 0 auto;
   margin-top: 10px;
 }
-.reservation-section .content .form button .button, .reservation-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .reservation-section .content .form button a {
+.reservation-section .content .form button .button, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .reservation-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .reservation-section .content .form button a {
   justify-content: center;
+  transition: 0.3s;
   background-color: #000;
   color: #fff;
 }
 
 .our-video-section {
   background-image: url(../../../assets/images/ourvideobg.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center 2.81667px;
 }
 .our-video-section .text {
@@ -758,7 +836,9 @@ footer .footer-end .container .get-theme a:hover {
 .the-blog-section {
   padding: 115px 0px 123px 0;
 }
-.the-blog-section .title h3, .the-blog-section .events-section .carousel .carousel-caption h2 h3, .events-section .carousel .carousel-caption .the-blog-section h2 h3, .the-blog-section .italian-section .row .content h2 h3, .italian-section .row .content .the-blog-section h2 h3,
+.the-blog-section .title h3, .the-blog-section .book-table-section h2 h3, .book-table-section .the-blog-section h2 h3, .the-blog-section .reservation-hero-section h1 h3, .reservation-hero-section .the-blog-section h1 h3, .the-blog-section .lunch-section h2 h3, .lunch-section .the-blog-section h2 h3,
+.the-blog-section .dinner-section h2 h3,
+.dinner-section .the-blog-section h2 h3, .the-blog-section .menu-hero-section h1 h3, .menu-hero-section .the-blog-section h1 h3, .the-blog-section .gallery-hero-section h1 h3, .gallery-hero-section .the-blog-section h1 h3, .the-blog-section .contact-hero-section h1 h3, .contact-hero-section .the-blog-section h1 h3, .the-blog-section .blog-hero-section h1 h3, .blog-hero-section .the-blog-section h1 h3, .the-blog-section .about-hero-section h1 h3, .about-hero-section .the-blog-section h1 h3, .the-blog-section .events-section .carousel .carousel-caption h2 h3, .events-section .carousel .carousel-caption .the-blog-section h2 h3, .the-blog-section .customers-say-section h2 h3, .customers-say-section .the-blog-section h2 h3, .the-blog-section .italian-section .row .content h2 h3, .italian-section .row .content .the-blog-section h2 h3,
 .the-blog-section .reservation-section .row .content h2 h3,
 .reservation-section .row .content .the-blog-section h2 h3, .the-blog-section .discover-pato-section .text h2 h3, .discover-pato-section .text .the-blog-section h2 h3, .the-blog-section .our-menu-section .container .content h2 h3, .our-menu-section .container .content .the-blog-section h2 h3, .the-blog-section .our-video-section .text h2 h3, .our-video-section .text .the-blog-section h2 h3 {
   text-transform: capitalize;
@@ -826,11 +906,310 @@ footer .footer-end .container .get-theme a:hover {
   outline: none;
   box-shadow: 0 0 0 2px #ec1d25 !important;
 }
-.specials form .button, .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form a, .specials form .reservation-section .content .form button .button, .reservation-section .content .form button .specials form .button, .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form .reservation-section .content .form button a {
+.specials form .button, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .reservation-section .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .button, .book-table-section .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .book-table-section .content .form button .button, .book-table-section .content .form button .specials form .button, .specials form .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form a, .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials form .reservation-section .book-table-section .content .form button .button, .specials form .book-table-section .reservation-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .specials form .reservation-section .book-table-section .content .form button .button, .specials form .book-table-section .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .button, .book-table-section .specials form .reservation-section .content .form button .button, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .reservation-section .specials form .book-table-section .content .form button .specials form .button, .specials form .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .specials form .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .specials form .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .specials form .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .specials form .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .reservation-section .content .form button .specials form .button, .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .reservation-section .content .form button .specials form a, .specials form .reservation-section .book-table-section .content .form button .specials form .button, .book-table-section .specials form .reservation-section .content .form button .specials form .button, .specials form .reservation-section .book-table-section .content .form button .specials form .first-slider .carousel-caption a, .book-table-section .specials form .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .specials form .reservation-section .book-table-section .content .form button .first-slider .carousel-caption .specials form a, .book-table-section .specials form .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .reservation-section .first-slider .carousel-caption .book-table-section .content .form button .specials form a, .first-slider .carousel-caption .book-table-section .specials form .reservation-section .content .form button .specials form a, .specials form .book-table-section .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .book-table-section .first-slider .carousel-caption .specials form .reservation-section .content .form button .specials form a, .specials form .reservation-section .content .form button .first-slider .carousel-caption a, .reservation-section .content .form button .first-slider .carousel-caption .specials form a, .specials form .first-slider .carousel-caption .reservation-section .content .form button a, .first-slider .carousel-caption .reservation-section .content .form button .specials form a, .reservation-section .content .form button .specials form .first-slider .carousel-caption a, .first-slider .carousel-caption .specials form .reservation-section .content .form button a {
   margin: 10px auto;
   background-color: #111111;
   color: #fff;
   display: flex;
   width: 160px !important;
   transition: 0.4s;
+}
+
+.about-hero-section {
+  background-image: url(../../../assets/images/aboutherobgi.jpg);
+}
+.about-hero-section h1 {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .about-hero-section h1 {
+    font-size: 30px;
+  }
+}
+
+.blog-hero-section {
+  background-image: url(../../../assets/images/aboutherobgi.jpg);
+}
+.blog-hero-section h1 {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .blog-hero-section h1 {
+    font-size: 30px;
+  }
+}
+
+.contact-hero-section {
+  background-image: url(../../../assets/images/reservationherobgi.jpg);
+}
+.contact-hero-section h1 {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .contact-hero-section h1 {
+    font-size: 30px;
+  }
+}
+
+.gallery-hero-section {
+  background-image: url(../../../assets/images/reservationherobgi.jpg);
+}
+.gallery-hero-section h1 {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .gallery-hero-section h1 {
+    font-size: 30px;
+  }
+}
+
+.menu-hero-section {
+  background-image: url(../../../assets/images/menuherobgi.jpg);
+}
+.menu-hero-section h1 {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .menu-hero-section h1 {
+    font-size: 30px;
+  }
+}
+
+.lunch-section h2,
+.dinner-section h2 {
+  padding: 170px 0 165px 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+}
+
+.lunch-section {
+  background-image: url(../../../assets/images/lunchbgi.jpg);
+}
+
+.dinner-section {
+  background-image: url(../../../assets/images/dinnerbgi.jpg);
+}
+
+.menu-section,
+.lunch-menu-section,
+.dinner-menu-section {
+  padding: 110px 0 70px 0;
+  background-color: rgb(238, 238, 238);
+}
+.menu-section h3,
+.lunch-menu-section h3,
+.dinner-menu-section h3 {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.menu-section a,
+.lunch-menu-section a,
+.dinner-menu-section a {
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  text-wrap: nowrap;
+}
+.menu-section span,
+.lunch-menu-section span,
+.dinner-menu-section span {
+  font-size: 13px;
+}
+.menu-section .item,
+.lunch-menu-section .item,
+.dinner-menu-section .item {
+  margin-bottom: 36px;
+}
+.menu-section .item > div,
+.lunch-menu-section .item > div,
+.dinner-menu-section .item > div {
+  position: relative;
+}
+.menu-section .price,
+.lunch-menu-section .price,
+.dinner-menu-section .price {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+.menu-section .leftmenu,
+.lunch-menu-section .leftmenu,
+.dinner-menu-section .leftmenu {
+  padding: 0 35px 0 15px;
+}
+.menu-section .rightmenu,
+.lunch-menu-section .rightmenu,
+.dinner-menu-section .rightmenu {
+  padding: 0 15px 0 35px;
+}
+.menu-section .dotted,
+.lunch-menu-section .dotted,
+.dinner-menu-section .dotted {
+  border-bottom: 3px dotted #ACACAC;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  margin-right: 5px;
+}
+
+.lunch-menu-section,
+.dinner-menu-section {
+  background-color: #fff;
+}
+.lunch-menu-section span,
+.dinner-menu-section span {
+  display: block;
+  text-wrap: nowrap;
+}
+.lunch-menu-section img,
+.dinner-menu-section img {
+  width: 100%;
+  transition: 0.4s;
+}
+.lunch-menu-section .image,
+.dinner-menu-section .image {
+  width: 160px;
+  height: 120px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 28px;
+}
+.lunch-menu-section .image:hover img,
+.dinner-menu-section .image:hover img {
+  transform: scale(1.1);
+}
+.lunch-menu-section .d-flex,
+.dinner-menu-section .d-flex {
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 576px) {
+  .lunch-menu-section .d-flex,
+  .dinner-menu-section .d-flex {
+    flex-direction: column;
+  }
+}
+.lunch-menu-section .menu-box,
+.dinner-menu-section .menu-box {
+  justify-content: center;
+  width: calc(100% - 160px - 28px);
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .lunch-menu-section .menu-box,
+  .dinner-menu-section .menu-box {
+    margin-top: 10px;
+  }
+}
+.lunch-menu-section .col-md-8,
+.dinner-menu-section .col-md-8 {
+  margin: 0 auto;
+}
+.lunch-menu-section .price,
+.dinner-menu-section .price {
+  margin-top: 20px;
+}
+
+.reservation-hero-section {
+  background-image: url(../../../assets/images/reservationherobgi.jpg);
+}
+.reservation-hero-section h1 {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .reservation-hero-section h1 {
+    font-size: 30px;
+  }
+}
+
+.book-table-section {
+  background-color: #EFEFEF;
+  padding: 110px 0;
+}
+.book-table-section h2 {
+  padding-bottom: 35px;
+}
+.book-table-section .content {
+  justify-content: normal !important;
+}
+.book-table-section .content .form {
+  text-align: start;
+  max-width: 870px;
+  margin: 0 auto;
+}
+.book-table-section .content .form .inputs {
+  padding: 0 15px;
+}
+.book-table-section .content .form .inputs label,
+.book-table-section .content .form .inputs select {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+.book-table-section .content .form .inputs div {
+  border: 2px solid #d9d9d9;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 23px;
+  margin-top: 3px;
+  border-radius: 10px;
+}
+.book-table-section .content .form .inputs div input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  border-radius: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.book-table-section .content .form .inputs div input:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0px 2px #ec1d25 !important;
+}
+.book-table-section .content .form .inputs div select {
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+}
+.book-table-section .content .form button {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.book-table-section .content .form button .button, .book-table-section .content .form button .first-slider .carousel-caption a, .first-slider .carousel-caption .book-table-section .content .form button a, .book-table-section .first-slider .carousel-caption .reservation-section .content .form button a {
+  justify-content: center;
+  transition: 0.3s;
+  background-color: #000;
+  color: #fff;
+}
+.book-table-section .reserve {
+  margin-top: 160px;
+}
+.book-table-section .reserve div:last-of-type {
+  padding-left: 30px;
+}
+@media screen and (max-width: 576px) {
+  .book-table-section .reserve div:last-of-type {
+    padding-left: 0;
+  }
+}
+.book-table-section .reserve h4 {
+  padding-bottom: 18px;
+  margin-top: 40px;
+}
+.book-table-section .reserve p {
+  max-width: 520px;
+}
+.book-table-section .reserve a {
+  color: #ec1d25;
+}
+.book-table-section .reserve span {
+  color: #222222;
 }/*# sourceMappingURL=main.css.map */

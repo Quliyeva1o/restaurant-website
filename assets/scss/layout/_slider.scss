@@ -75,7 +75,7 @@
     .carousel-control-prev {
         left: 50px;
 
-        @include for-phone{
+        @include for-phone {
             left: 15px;
         }
     }
@@ -117,10 +117,7 @@
     }
 
 
-    .carousel-indicators
-
-        
-     button {
+    .carousel-indicators button {
         @include size(12px, 12px, 0, 50px);
         margin-bottom: 30px;
         display: block;
@@ -137,7 +134,7 @@
     }
 
 
-    }
+}
 
 
 
@@ -153,26 +150,29 @@
     .carousel {
         height: 900px;
 
-        @include for-tablet{
+        @include for-tablet {
             height: 100vh;
         }
 
 
-        @include for-phone{
+        @include for-phone {
             height: 90vh;
         }
 
-        .carousel-indicators{bottom: 50px;}
+        .carousel-indicators {
+            bottom: 50px;
+        }
+
         .carousel-caption {
 
 
-           text-align: center;
+            text-align: center;
             left: 0;
             right: 0;
             height: 100%;
             align-content: center;
             top: 120px;
-            
+
 
             h5 {
                 @extend .redtitle;
@@ -271,4 +271,70 @@
 
         }
     }
+}
+
+
+.customers-say-section {
+
+    text-align: center;
+    padding-top: 115px;
+    margin-bottom: 40px;
+
+    .carousel-indicators{
+        margin-bottom: 50px;
+        .active{
+            background-color:  $lightred;
+        }
+    
+    button {
+        width: 10px;
+        height: 10px;
+
+
+    }
+    }
+
+
+h5 {
+    @extend .redtitle;
+}
+
+h2 {
+    @extend .title;
+}
+
+
+.carousel-item {
+    margin: 50px 0 180px 0;
+
+    .image {
+        @extend .redcircle;
+        margin-bottom: 33px;
+    }
+
+    p {
+        @extend .p;
+        font-size: 18px;
+        max-width: 890px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .stars {
+        margin-top: 12px;
+        font-size: 18px;
+        color: $lightred;
+        letter-spacing: -2px
+    }
+
+    .name p {
+        @extend .link;
+        margin-top: 32px;
+        font-size: 12px;
+
+        &:hover {
+            color: $lightblack;
+        }
+    }
+}
 }

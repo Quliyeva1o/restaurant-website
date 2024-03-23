@@ -4,3 +4,33 @@
     justify-content: center;
     text-align: center;
 }
+
+.redcircle {
+    border: 4px solid $lightred;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 118px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+.fixed{
+  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    padding: 160px 15px 80px 15px;
+    width: 100%;
+    min-height: 545px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
