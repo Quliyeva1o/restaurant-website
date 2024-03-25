@@ -172,7 +172,7 @@
     form {
 
         align-items: center;
-        @media(max-width:992px){
+        @include for-tablet{
             flex-direction:column;
         }
 
