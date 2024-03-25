@@ -1,3 +1,6 @@
+@import "vendors/bootstrap";
+@import"vendors/fonts";
+@import "vendors/icons";
 @import "base/reset";
 @import "base/cols";
 @import "utils/variables";
@@ -5,9 +8,9 @@
 @import "components/extends";
 @import "components/texts";
 @import"components/buttons";
+@import"components/specials";
 @import "layout/header";
 @import "layout/nav";
-@import"layout/footer";
 @import"layout/slider";
 @import"layout/forms";
 @import"pages/home";
@@ -17,6 +20,4 @@
 @import"pages/gallery";
 @import"pages/menu";
 @import"pages/reservation";
-@import"vendors/fonts";
-@import "vendors/bootstrap";
-@import "vendors/icons";
+@import"layout/footer";
