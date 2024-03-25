@@ -6,10 +6,234 @@
     h1 {
         @extend .title;
         color: white;
-        @include for-phone{
+        @include for-phone {
             font-size: 30px;
         }
-
     }
 }
 
+.bread-crumb-section {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 17px 0;
+    a {
+        @extend .link;
+    }
+    span {
+        @extend .p;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
+
+.blog-section {
+    .container {
+        @media screen and (max-width: $tablet-breakpoint) {
+            flex-direction: column;
+        }
+        .left {
+            padding-right: 15px;
+
+            .blog-boxes {
+                border-right: 1px solid #e6e6e6;
+
+                padding: 80px 50px 124px 0;
+                @media screen and (max-width: $tablet-breakpoint) {
+                    padding-right: 0;
+                    border: none;
+                }
+                .blog-box {
+                    padding-bottom: 63px;
+                    .image-box {
+                        overflow: hidden;
+                        position: relative;
+
+                        .image {
+                            width: 100%;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            img {
+                                object-fit: cover;
+                                width: 100%;
+                                transition: 0.6s;
+                                &:hover {
+                                    transform: scale(1.1);
+                                }
+                            }
+                        }
+                        .day {
+                            position: absolute;
+                            top: 20px;
+                            left: 20px;
+                            z-index: 222;
+                            background-color: $lightred;
+                            border-radius: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                            width: 75px;
+                            height: 82px;
+                            justify-content: center;
+
+                            .number {
+                                font-size: 39px;
+                                font-family: $mont;
+                                font-weight: 700;
+                                color: white;
+                                line-height: 1;
+                                text-transform: uppercase;
+                                letter-spacing: 1px;
+                            }
+                            .month {
+                                font-size: 12px;
+                                font-family: $mont;
+                                font-weight: 400;
+                                color: white;
+                            }
+                        }
+                    }
+                    .content {
+                        padding-top: 35px;
+                        h4 {
+                            font-size: 30px;
+                        }
+                        .bread {
+                            font-family: $mont;
+                            font-weight: 400;
+                            font-size: 12px;
+                            color: #808080;
+                            line-height: 1.5;
+                            padding-bottom: 24px;
+                        }
+                        p {
+                            padding-bottom: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            padding-left: 15px;
+            @media screen and (max-width: $tablet-breakpoint) {
+            padding: 0;}
+            .rightbar {
+                padding: 80px 0 80px 15px;
+                @media screen and (max-width: $tablet-breakpoint) {
+                    padding: 0;
+                }
+
+                h4 {
+                    @extend .box-title;
+                    padding: 58px 0 35px 0;
+                }
+                .search {
+                    border: 2px solid #d9d9d9;
+                    width: 100%;
+                    height: 50px;
+                    position: relative;
+                    display: flex;
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        font-family: $mont;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #666666;
+                        padding-left: 20px;
+                        padding-right: 55px;
+                        outline: none;
+                        border: none;
+                    }
+                    button {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 46px;
+                        height: 100%;
+                        background-color: #333333;
+                        color: white;
+                        font-size: 18px;
+                        transition: 0.3s;
+                        border: none;
+
+                        &:hover {
+                            color: $red;
+                        }
+                    }
+                }
+
+                .categories {
+                    li {
+                        border-bottom: 1px solid #e6e6e6;
+                        padding: 8px 0;
+                        a {
+                            @extend .link;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+
+                .popular {
+                    .popular-box {
+                        display: flex;
+                        margin-bottom: 25px;
+                        .image {
+                            width: 70px;
+                            height: 70px;
+                            overflow: hidden;
+                            border-radius: 10px;
+
+                            img {
+                                cursor: pointer;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        .content {
+                            width: calc(100% - 88px);
+                            margin-left: 18px;
+                            a {
+                                font-family: $pop;
+                                font-weight: 500;
+                                font-size: 12px;
+                                color: #222222;
+                                line-height: 1.5;
+                                text-transform: uppercase;
+                                letter-spacing: 1px;
+                                word-spacing: 2px;
+                                margin-bottom: 8px;
+                                display: block;
+                            }
+                            span {
+                                font-family: $mont;
+                                font-weight: 400;
+                                font-size: 13px;
+                                color: #999999;
+                                line-height: 1.7;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                .archive {
+                    .link {
+                        padding: 8px 0;
+                        justify-content: space-between;
+                        display: flex;
+                        a {
+                            color: $lightblack;
+                        }
+                        span {
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

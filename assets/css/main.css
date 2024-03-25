@@ -91,7 +91,7 @@ input:focus-visible {
 
 .p, .book-table-section .reserve p, .menu-section span,
 .lunch-menu-section span,
-.dinner-menu-section span, .callus .col-lg-4 p, .chefs-section .container .chef-box .content p, .recipes-section .row .content p, .indian-section p, .discover-boxes-section .boxes .discover-box p,
+.dinner-menu-section span, .callus .col-lg-4 p, .bread-crumb-section span, .chefs-section .container .chef-box .content p, .recipes-section .row .content p, .indian-section p, .discover-boxes-section .boxes .discover-box p,
 .the-blog-section .boxes .discover-box p, .italian-section .row .content p,
 .reservation-section .row .content p, .customers-say-section .carousel-item p, .events-section .carousel .event-card p {
   font-size: 15px;
@@ -104,7 +104,7 @@ input:focus-visible {
 
 .link, .menu-section a,
 .lunch-menu-section a,
-.dinner-menu-section a, .chefs-section .container .chef-box .content span, .recipes-section .row .content a, .discover-boxes-section .boxes .discover-box a,
+.dinner-menu-section a, .blog-section .container .right .rightbar .categories li a, .bread-crumb-section a, .chefs-section .container .chef-box .content span, .recipes-section .row .content a, .discover-boxes-section .boxes .discover-box a,
 .the-blog-section .boxes .discover-box a, .italian-section .row .content a,
 .reservation-section .row .content a, .customers-say-section .carousel-item .name p, .events-section .carousel .event-card a {
   font-size: 12px;
@@ -116,7 +116,7 @@ input:focus-visible {
 }
 .link:hover, .menu-section a:hover,
 .lunch-menu-section a:hover,
-.dinner-menu-section a:hover, .chefs-section .container .chef-box .content span:hover, .recipes-section .row .content a:hover, .discover-boxes-section .boxes .discover-box a:hover,
+.dinner-menu-section a:hover, .blog-section .container .right .rightbar .categories li a:hover, .bread-crumb-section a:hover, .chefs-section .container .chef-box .content span:hover, .recipes-section .row .content a:hover, .discover-boxes-section .boxes .discover-box a:hover,
 .the-blog-section .boxes .discover-box a:hover, .italian-section .row .content a:hover,
 .reservation-section .row .content a:hover, .customers-say-section .carousel-item .name p:hover, .events-section .carousel .event-card a:hover {
   color: #d61c22;
@@ -124,7 +124,7 @@ input:focus-visible {
 
 .box-title, footer h4, .book-table-section .reserve h4, .menu-section h3,
 .lunch-menu-section h3,
-.dinner-menu-section h3, .cards-section .buttons button, .callus .col-lg-4 h2, .contact-section h3, .discover-boxes-section .boxes .discover-box h4,
+.dinner-menu-section h3, .cards-section .buttons button, .callus .col-lg-4 h2, .contact-section h3, .blog-section .container .right .rightbar h4, .discover-boxes-section .boxes .discover-box h4,
 .the-blog-section .boxes .discover-box h4, .events-section .carousel .event-card h4, .specials form label {
   font-size: 22px;
   font-weight: 500;
@@ -997,6 +997,239 @@ header nav .icons a i {
   .blog-hero-section h1 {
     font-size: 30px;
   }
+}
+
+.bread-crumb-section {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 17px 0;
+}
+.bread-crumb-section span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-section .container {
+    flex-direction: column;
+  }
+}
+.blog-section .container .left {
+  padding-right: 15px;
+}
+.blog-section .container .left .blog-boxes {
+  border-right: 1px solid #e6e6e6;
+  padding: 80px 50px 124px 0;
+}
+@media screen and (max-width: 768px) {
+  .blog-section .container .left .blog-boxes {
+    padding-right: 0;
+    border: none;
+  }
+}
+.blog-section .container .left .blog-boxes .blog-box {
+  padding-bottom: 63px;
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box {
+  overflow: hidden;
+  position: relative;
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box .image {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box .image img {
+  object-fit: cover;
+  width: 100%;
+  transition: 0.6s;
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box .image img:hover {
+  transform: scale(1.1);
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box .day {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 222;
+  background-color: #ec1d25;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 75px;
+  height: 82px;
+  justify-content: center;
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box .day .number {
+  font-size: 39px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.blog-section .container .left .blog-boxes .blog-box .image-box .day .month {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.blog-section .container .left .blog-boxes .blog-box .content {
+  padding-top: 35px;
+}
+.blog-section .container .left .blog-boxes .blog-box .content h4 {
+  font-size: 30px;
+}
+.blog-section .container .left .blog-boxes .blog-box .content .bread {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #808080;
+  line-height: 1.5;
+  padding-bottom: 24px;
+}
+.blog-section .container .left .blog-boxes .blog-box .content p {
+  padding-bottom: 30px;
+}
+.blog-section .container .right {
+  padding-left: 15px;
+}
+.blog-section .container .right ul {
+  list-style: none;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .blog-section .container .right {
+    padding: 0;
+  }
+}
+.blog-section .container .right .rightbar {
+  padding: 80px 0 80px 15px;
+}
+@media screen and (max-width: 768px) {
+  .blog-section .container .right .rightbar {
+    padding: 0;
+  }
+}
+.blog-section .container .right .rightbar h4 {
+  padding: 58px 0 35px 0;
+}
+.blog-section .container .right .rightbar .search {
+  border: 2px solid #d9d9d9;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: flex;
+}
+.blog-section .container .right .rightbar .search input {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  padding-left: 20px;
+  padding-right: 55px;
+  outline: none;
+  border: none;
+}
+.blog-section .container .right .rightbar .search button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 46px;
+  height: 100%;
+  background-color: #333333;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+  border: none;
+}
+.blog-section .container .right .rightbar .search button:hover {
+  color: #d61c22;
+}
+.blog-section .container .right .rightbar .categories li {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 8px 0;
+}
+.blog-section .container .right .rightbar .categories li a {
+  transition: 0.3s;
+}
+.blog-section .container .right .rightbar .popular .popular-box {
+  display: flex;
+  margin-bottom: 25px;
+}
+.blog-section .container .right .rightbar .popular .popular-box .image {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.blog-section .container .right .rightbar .popular .popular-box .image img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-section .container .right .rightbar .popular .popular-box .content {
+  width: calc(100% - 88px);
+  margin-left: 18px;
+}
+.blog-section .container .right .rightbar .popular .popular-box .content a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #222222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 8px;
+  display: block;
+}
+.blog-section .container .right .rightbar .popular .popular-box .content span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #999999;
+  line-height: 1.7;
+  display: block;
+}
+.blog-section .container .right .rightbar .archive .link, .blog-section .container .right .rightbar .archive .menu-section a, .menu-section .blog-section .container .right .rightbar .archive a,
+.blog-section .container .right .rightbar .archive .lunch-menu-section a,
+.lunch-menu-section .blog-section .container .right .rightbar .archive a,
+.blog-section .container .right .rightbar .archive .dinner-menu-section a,
+.dinner-menu-section .blog-section .container .right .rightbar .archive a, .blog-section .container .right .rightbar .archive .events-section .carousel .event-card a, .events-section .carousel .event-card .blog-section .container .right .rightbar .archive a, .blog-section .container .right .rightbar .archive .customers-say-section .carousel-item .name p, .customers-say-section .carousel-item .name .blog-section .container .right .rightbar .archive p, .blog-section .container .right .rightbar .archive .italian-section .row .content a, .italian-section .row .content .blog-section .container .right .rightbar .archive a,
+.blog-section .container .right .rightbar .archive .reservation-section .row .content a,
+.reservation-section .row .content .blog-section .container .right .rightbar .archive a, .blog-section .container .right .rightbar .archive .discover-boxes-section .boxes .discover-box a, .discover-boxes-section .boxes .discover-box .blog-section .container .right .rightbar .archive a,
+.blog-section .container .right .rightbar .archive .the-blog-section .boxes .discover-box a,
+.the-blog-section .boxes .discover-box .blog-section .container .right .rightbar .archive a, .blog-section .container .right .rightbar .archive .recipes-section .row .content a, .recipes-section .row .content .blog-section .container .right .rightbar .archive a, .blog-section .chefs-section .container .right .rightbar .archive .chef-box .content span, .chefs-section .blog-section .container .right .rightbar .archive .chef-box .content span, .blog-section .chefs-section .container .chef-box .content .right .rightbar .archive span, .chefs-section .blog-section .container .chef-box .content .right .rightbar .archive span, .blog-section .container .right .rightbar .archive .bread-crumb-section a, .bread-crumb-section .blog-section .container .right .rightbar .archive a, .blog-section .container .right .rightbar .archive .categories li a, .blog-section .container .right .rightbar .categories li .archive a {
+  padding: 8px 0;
+  justify-content: space-between;
+  display: flex;
+}
+.blog-section .container .right .rightbar .archive .link a, .blog-section .container .right .rightbar .archive .menu-section a a, .menu-section .blog-section .container .right .rightbar .archive a a,
+.blog-section .container .right .rightbar .archive .lunch-menu-section a a,
+.lunch-menu-section .blog-section .container .right .rightbar .archive a a,
+.blog-section .container .right .rightbar .archive .dinner-menu-section a a,
+.dinner-menu-section .blog-section .container .right .rightbar .archive a a, .blog-section .container .right .rightbar .archive .events-section .carousel .event-card a a, .events-section .carousel .event-card .blog-section .container .right .rightbar .archive a a, .blog-section .container .right .rightbar .archive .customers-say-section .carousel-item .name p a, .customers-say-section .carousel-item .name .blog-section .container .right .rightbar .archive p a, .blog-section .container .right .rightbar .archive .italian-section .row .content a a, .italian-section .row .content .blog-section .container .right .rightbar .archive a a,
+.blog-section .container .right .rightbar .archive .reservation-section .row .content a a,
+.reservation-section .row .content .blog-section .container .right .rightbar .archive a a, .blog-section .container .right .rightbar .archive .discover-boxes-section .boxes .discover-box a a, .discover-boxes-section .boxes .discover-box .blog-section .container .right .rightbar .archive a a,
+.blog-section .container .right .rightbar .archive .the-blog-section .boxes .discover-box a a,
+.the-blog-section .boxes .discover-box .blog-section .container .right .rightbar .archive a a, .blog-section .container .right .rightbar .archive .recipes-section .row .content a a, .recipes-section .row .content .blog-section .container .right .rightbar .archive a a, .blog-section .chefs-section .container .right .rightbar .archive .chef-box .content span a, .chefs-section .blog-section .container .right .rightbar .archive .chef-box .content span a, .blog-section .chefs-section .container .chef-box .content .right .rightbar .archive span a, .chefs-section .blog-section .container .chef-box .content .right .rightbar .archive span a, .blog-section .container .right .rightbar .archive .bread-crumb-section a a, .bread-crumb-section .blog-section .container .right .rightbar .archive a a, .blog-section .container .right .rightbar .archive .categories li a a, .blog-section .container .right .rightbar .categories li .archive a a {
+  color: #222222;
+}
+.blog-section .container .right .rightbar .archive .link span, .blog-section .container .right .rightbar .archive .menu-section a span, .menu-section .blog-section .container .right .rightbar .archive a span,
+.blog-section .container .right .rightbar .archive .lunch-menu-section a span,
+.lunch-menu-section .blog-section .container .right .rightbar .archive a span,
+.blog-section .container .right .rightbar .archive .dinner-menu-section a span,
+.dinner-menu-section .blog-section .container .right .rightbar .archive a span, .blog-section .container .right .rightbar .archive .events-section .carousel .event-card a span, .events-section .carousel .event-card .blog-section .container .right .rightbar .archive a span, .blog-section .container .right .rightbar .archive .customers-say-section .carousel-item .name p span, .customers-say-section .carousel-item .name .blog-section .container .right .rightbar .archive p span, .blog-section .container .right .rightbar .archive .italian-section .row .content a span, .italian-section .row .content .blog-section .container .right .rightbar .archive a span,
+.blog-section .container .right .rightbar .archive .reservation-section .row .content a span,
+.reservation-section .row .content .blog-section .container .right .rightbar .archive a span, .blog-section .container .right .rightbar .archive .discover-boxes-section .boxes .discover-box a span, .discover-boxes-section .boxes .discover-box .blog-section .container .right .rightbar .archive a span,
+.blog-section .container .right .rightbar .archive .the-blog-section .boxes .discover-box a span,
+.the-blog-section .boxes .discover-box .blog-section .container .right .rightbar .archive a span, .blog-section .container .right .rightbar .archive .recipes-section .row .content a span, .recipes-section .row .content .blog-section .container .right .rightbar .archive a span, .blog-section .chefs-section .container .right .rightbar .archive .chef-box .content span span, .chefs-section .blog-section .container .right .rightbar .archive .chef-box .content span span, .blog-section .chefs-section .container .chef-box .content .right .rightbar .archive span span, .chefs-section .blog-section .container .chef-box .content .right .rightbar .archive span span, .blog-section .container .right .rightbar .archive .bread-crumb-section a span, .bread-crumb-section .blog-section .container .right .rightbar .archive a span, .blog-section .container .right .rightbar .archive .categories li a span, .blog-section .container .right .rightbar .categories li .archive a span {
+  color: #999;
 }
 
 .contact-hero-section {
