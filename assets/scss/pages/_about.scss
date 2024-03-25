@@ -6,27 +6,31 @@
     h1 {
         @extend .title;
         color: white;
-        @include for-phone{
+
+        @include for-phone {
             font-size: 30px;
         }
 
-    } 
+    }
 }
 
 
-.indian-section{
+.indian-section {
     padding: 110px 0;
     text-align: center;
     justify-content: center;
     background-color: #F4F0EB;
-h5{
-    @extend .redtitle;
-    margin: 5px 0 35px 0;
-}
-h2{
-    @extend .title;
-}
-    p{
+
+    h5 {
+        @extend .redtitle;
+        margin: 5px 0 35px 0;
+    }
+
+    h2 {
+        @extend .title;
+    }
+
+    p {
         @extend .p;
         max-width: 868px;
         margin: 0 auto;
@@ -150,17 +154,96 @@ h2{
     }
 
 
-    .restaurant{
+    .restaurant {
         margin-top: 170px;
     }
 }
 
 
-.fixed-image-section{
+.fixed-image-section {
     @extend .fixed;
     background-image: url(../../../assets/images/ourvideobg.jpg);
-    div{
-       min-height: 616px;
-       background-color: rgba(0,0,0,0.5);
+
+    div {
+        min-height: 616px;
+        background-color: rgba(0, 0, 0, 0.5);
     }
+}
+
+
+
+.chefs-section {
+    text-align: center;
+    padding: 115px 0 95px 0;
+
+    .container {
+        .col-md-8{
+            margin: 0 auto;
+        }
+
+        h5 {
+            @extend .redtitle;
+
+        }
+
+        h3 {
+            @extend .title;
+            padding: 5px 0 50px 0;
+        }
+        .row>div{
+            padding-bottom: 30px;
+        }
+
+        .chef-box {
+            position: relative;
+            padding-top: 60px;
+
+            .image {
+                @extend .redcircle;
+                position: absolute;
+                top: 0;
+                left: calc(50% - 64px);
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                }
+
+            }
+
+            .content {
+                border: 2px solid #e6e6e6;
+                border-radius: 10px;
+                min-height: 320px;
+                padding-top: 90px;
+                padding-left: 35px;
+                padding-right: 35px;
+                padding-bottom: 30px;
+
+                a {
+                    font-family: $pop;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 1.4;
+                    color: #333333;
+                    letter-spacing: 2px;
+                    transition: .3s;
+                    padding-bottom: 6px;
+                    &:hover{
+                        color:$lightred;
+                    }
+                
+                }
+                span{
+                    @extend .link;
+                    padding-bottom: 25px;
+                    display: block;
+                }
+                p{
+                    @extend .p;
+                }
+            }
+        }
+    }
+
 }

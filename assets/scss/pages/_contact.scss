@@ -6,10 +6,120 @@
     h1 {
         @extend .title;
         color: white;
-        @include for-phone{
+
+        @include for-phone {
             font-size: 30px;
         }
+    }
+}
 
+.contact-section {
+    padding: 90px 0 113px 0;
+    background-color: #EEEEEE;
+
+    .iframe {
+        border: 5px solid white;
+        border-radius: 10px
+    }
+
+    h3 {
+        @extend .box-title;
+        padding: 105px 0 62px 0;
+        text-align: center;
+    }
+
+    .form {
+        text-align: start;
+        max-width: 870px;
+        margin: 0 auto;
+    }
+
+    .inputs {
+        padding: 0 15px;
+
+        label,
+        select {
+            @include font(15px, 400, $mont, #555);
+        }
+
+        div {
+            border: 2px solid #d9d9d9;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 23px;
+            margin-top: 3px;
+            border-radius: 10px;
+
+            input,
+            textarea {
+                @include font(14px, 400, $mont, #666);
+                @include size(100%, 100%, 0 0 0 20px, 10px);
+                border: none;
+
+                &:focus-visible {
+                    outline: none;
+                    box-shadow: 0 0 0px 2px #ec1d25 !important;
+
+                }
+            }
+
+            select {
+                border: 2px solid #d9d9d9;
+                border-radius: 4px;
+            }
+        }
+
+        .textarea {
+            height: 180px;
+            width: 100%;
+
+            textarea {
+                padding-top: 10px;
+            }
+        }
+    }
+
+    button {
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+
+        .button {
+            @extend .button;
+            justify-content: center;
+            transition: .3s;
+            @include colors(#000, #fff)
+        }
+    }
+}
+
+.callus {
+    margin-top: 135px;
+    @include for-tablet{
+        flex-direction: column;
+    }
+
+    .col-lg-4 {
+        padding: 30px;
+        margin: 0 auto;
+        @include for-phone{
+            width: 100%;
+        }
+
+        .icon {
+            padding-right: 40px;
+        }
+
+        h2 {
+            @extend .box-title;
+            font-size: 22px;
+            padding-bottom: 3px;
+        }
+        p{
+            @extend .p;
+            font-size: 13px;
+        }
     }
 }
 
