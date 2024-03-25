@@ -168,6 +168,9 @@
         label {
             @extend .box-title;
             margin: 10px 0;
+            @media(max-width:992px){
+                margin: 10px auto;
+            }
         }
 
         .mail {
@@ -213,7 +216,9 @@
             width: 160px !important;
             @extend %center;
             transition: .4s;
-
+            @media(max-width:992px){
+                margin: 10px auto;
+            }
         }
     }
 }
