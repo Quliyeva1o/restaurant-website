@@ -1892,10 +1892,21 @@ footer .footer-end {
 footer .footer-end .container {
   align-items: center;
 }
+@media screen and (max-width: 576px) {
+  footer .footer-end .container {
+    flex-direction: column;
+  }
+}
 footer .footer-end .container .social a {
   color: #fff;
   font-size: 15px;
   padding-left: 18px;
+}
+@media screen and (max-width: 576px) {
+  footer .footer-end .container .social a {
+    padding-left: 0;
+    padding-right: 18px;
+  }
 }
 footer .footer-end .container .get-theme {
   align-items: center;

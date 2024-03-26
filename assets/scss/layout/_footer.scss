@@ -97,11 +97,15 @@ footer {
         padding: 22px 0;
 
         .container{align-items: center;
+            @include for-phone{flex-direction: column;}
         .social {
             a {
                 color: #fff;
                 font-size: 15px;
                 padding-left: 18px;
+                @include for-phone{padding-left: 0;
+                padding-right: 18px;}
+
 
             }
         }
