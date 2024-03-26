@@ -93,8 +93,9 @@ header {
                 @include font(12px, 400, $mont, $lightblack);
                 text-transform: uppercase;
                 letter-spacing: 1px;
+                color: $lightblack!important;
                 &:hover {
-                    color: $red;
+                    color: $red!important;
                 }
 
                 font-size: 14px;
