@@ -10,13 +10,11 @@
         @include for-phone {
             font-size: 30px;
         }
-
     }
 }
 
-
 .book-table-section {
-    background-color: #EFEFEF;
+    background-color: #efefef;
     padding: 110px 0;
 
     h5 {
@@ -38,10 +36,14 @@
 
             .inputs {
                 padding: 0 15px;
+                @include for-phone {
+                    padding: 0;
+                }
+            
 
                 label,
-                select {@include font(15px ,400,$mont,#555);
-                  
+                select {
+                    @include font(15px, 400, $mont, #555);
                 }
 
                 div {
@@ -53,16 +55,14 @@
                     border-radius: 10px;
 
                     input {
-                        @include font(14px,400,$mont,#666);
-                        @include size(100%, 100%,0 0 0 20px,10px);
+                        @include font(14px, 400, $mont, #666);
+                        @include size(100%, 100%, 0 0 0 20px, 10px);
                         border: none;
-
 
                         &:focus-visible {
                             outline: none;
                             box-shadow: 0 0 0px 2px #ec1d25 !important;
                         }
-
                     }
 
                     select {
@@ -81,30 +81,33 @@
                 .button {
                     @extend .button;
                     justify-content: center;
-                    transition: .3s;
+                    transition: 0.3s;
 
-
-                    @include colors(#000, #fff)
+                    @include colors(#000, #fff);
                 }
             }
         }
     }
 
-
-
     .reserve {
         margin-top: 160px;
+        div {
+            padding: 0 15px;
+            @include for-phone{
+                padding: 0;
+            }
+        }
 
         div:last-of-type {
             padding-left: 30px;
 
-            @include for-phone {
-
-                padding-left: 0;
-
+            @include for-tablet {
+                padding-left: 15px;
+            }
+            @include for-phone{
+                padding: 0;
             }
         }
-
 
         h4 {
             @extend .box-title;
@@ -122,7 +125,6 @@
         }
 
         span {
-
             color: $lightblack;
         }
     }

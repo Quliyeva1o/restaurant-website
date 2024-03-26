@@ -10,39 +10,109 @@
 
 <body>
   <header>
-
     <nav id="navbar">
-      <div class=" container d-flex align-items-center justify-content-between  ">
-        <div class="logo"><a href="">
-            <img id="logo-image" src="assets/images/wtitelogo.png" alt="">
-          </a></div>
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo"><a href=""><img id="logo-image" src="assets/images/wtitelogo.png" alt=""></a></div>
 
-        <div class="nav-links align-items-center h-100  ">
+        <div class="nav-links align-items-center h-100">
           <ul class="d-lg-flex">
-            <li><a href="home.html" id="navlink">home</a></li>
-            <li><a href="menu.html" id="navlink">menu</a></li>
-            <li><a href="reservation.html" id="navlink">reservation</a></li>
-            <li><a href="gallery.html" id="navlink">gallery</a></li>
-            <li><a href="about.html" id="navlink">about</a></li>
-            <li><a href="blog.html" id="navlink">blog</a></li>
-            <li><a href="contact.html" id="navlink">contact</a></li>
+            <li><a href="home.html" class="navlink">home</a></li>
+            <li><a href="menu.html" class="navlink">menu</a></li>
+            <li><a href="reservation.html" class="navlink">reservation</a></li>
+            <li><a href="gallery.html" class="navlink">gallery</a></li>
+            <li><a href="about.html" class="navlink">about</a></li>
+            <li><a href="blog.html" class="navlink">blog</a></li>
+            <li><a href="contact.html" class="navlink">contact</a></li>
           </ul>
         </div>
-        <div class="icons d-flex ">
-          <a href="">
-            <i class="fa fa-tripadvisor"></i>
-          </a>
-          <a href="">
-            <i class="fa-brands fa-facebook-f"></i></a>
-          <a href="">
-            <i class="fa-brands fa-twitter"></i></a>
-          <a href="">
-            <i class="fa-solid fa-bars"></i></a>
+        <div class="icons d-flex">
+          <a href=""><i class="fa fa-tripadvisor"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></a>
         </div>
-      </div>
 
+
+
+        <aside class="offcanvas offcanvas-end"  id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+
+          <ul class="menu-sidebar">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+            <li>
+              <a href="menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="res">
+
+              <a href="reservation.html" class="button">
+                Reservation
+              </a>
+            </li>
+          </ul>
+          
+            <!-- <h4>gallery</h4>
+            <div class="gallery">
+              <a href="">
+                <img src="assets/images/photo-gallery-01.jpg" alt="GALLERY">
+              </a>
+              <a href="">
+                <img src="assets/images/photo-gallery-02.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-03.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-04.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-05.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-06.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-07.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-08.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-09.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-10.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-11.jpg" alt="GALLERY">
+              </a> <a href="">
+                <img src="assets/images/photo-gallery-12.jpg" alt="GALLERY">
+              </a>
+            </div>
+          -->
+        </aside>
+
+
+
+
+
+
+
+
+
+
+      </div>
+      </div>
     </nav>
   </header>
+
 
   <main>
     <section class="slider-section">
@@ -571,7 +641,8 @@
                 </div>
               </div>
             </div>
-          </div><div class="carousel-item ">
+          </div>
+          <div class="carousel-item ">
             <div class="container">
               <div class="image">
                 <img src="assets/images/customer3 (2).jpg" alt="customer-image">
@@ -676,7 +747,7 @@
 
 
     </section>
-    
+
 
     <section class="specials">
       <form action="specials" class="d-flex justify-content-center  ">
@@ -822,6 +893,7 @@
 
   </footer>
 
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

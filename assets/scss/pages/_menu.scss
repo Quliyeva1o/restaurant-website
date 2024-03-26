@@ -87,6 +87,9 @@
 
     .rightmenu {
         padding: 0 15px 0 35px;
+        @include for-tablet{
+            padding: 15px;
+        }
     }
 
     .dotted {

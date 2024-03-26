@@ -1,7 +1,6 @@
 @import "../utils/variables";
 
 header {
-
     nav {
         @include size(100%, 120px, 0, 0);
         position: fixed;
@@ -11,10 +10,8 @@ header {
         transition: all 0.4s;
         border-top: 5px solid $lightred;
 
-
         .logo {
-
-            @media screen and (max-width:1200px) {
+            @media screen and (max-width: 1200px) {
                 height: 45px;
             }
 
@@ -24,7 +21,6 @@ header {
         }
 
         .nav-links {
-
             ul {
                 list-style: none;
                 justify-content: space-between;
@@ -33,12 +29,11 @@ header {
                 display: none;
 
                 li {
-
                     align-items: center;
                     padding: 0 10px;
                     display: flex;
 
-                    @media screen and (max-width:1200px) {
+                    @media screen and (max-width: 1200px) {
                         padding: 4px;
                     }
 
@@ -49,20 +44,18 @@ header {
                         font-size: 14px;
                         font-family: $mont;
                         padding: 10px;
-                        transition: .4s;
+                        transition: 0.4s;
 
                         &:hover {
-                           color: $red;
+                            color: $red;
                         }
 
                         i {
                             color: white;
                         }
-
                     }
                 }
             }
-
         }
 
         .icons {
@@ -72,20 +65,72 @@ header {
                 color: white;
                 font-size: 15px;
 
-
                 .fa-bars {
                     font-size: 25px;
-
                 }
 
                 i {
                     padding: 10px;
                 }
+            }
+        }
+    }
+}
 
+.offcanvas {
+    .menu-sidebar {
+        padding: 90px 0;
+        list-style: none;
+        text-align: center;
+        .res {
+            margin-top: 50px;
+        }
+        li {
+            margin-bottom: 13px;
+
+            a {
+                text-decoration: none;
+                @include font(12px, 400, $mont, $lightblack);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                &:hover {
+                    color: $red;
+                }
+
+                font-size: 14px;
+                transition: 0.3s;
             }
 
+            .button {
+                background-color: $lightblack;
+                color: #fff !important;
+                &:hover {
+                    background-color: $lightred;
+                    color: #fff;
+                }
+            }
+        }
+    }
 
+    .btn-close {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
 
+    .gallery {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        width: 100%;
+
+        a {
+            display: flex;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
         }
     }
 }
