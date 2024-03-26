@@ -947,6 +947,11 @@ header nav .icons a i {
   display: grid;
   justify-content: center;
 }
+@media screen and (max-width: 576px) {
+  .recipes-section .row .content h2 {
+    font-size: 40px;
+  }
+}
 .recipes-section .row .content p {
   padding: 15px 0;
   max-width: 513px;
