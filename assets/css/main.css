@@ -1895,6 +1895,7 @@ footer .footer-end .container {
 @media screen and (max-width: 576px) {
   footer .footer-end .container {
     flex-direction: column;
+    align-items: start;
   }
 }
 footer .footer-end .container .social a {
