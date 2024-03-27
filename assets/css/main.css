@@ -389,7 +389,6 @@ header nav .icons a i {
   height: 100%;
   padding: 0;
   border-radius: 0;
-  top: calc(50% - 120px);
 }
 .first-slider .carousel-caption h5 {
   font-family: "Courgette", sans-serif;
@@ -520,7 +519,6 @@ header nav .icons a i {
   right: 0;
   height: 100%;
   align-content: center;
-  top: 120px;
 }
 .events-section .carousel .carousel-caption h2 {
   color: #fff;
