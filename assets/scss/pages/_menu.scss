@@ -58,6 +58,9 @@
         display: inline-block;
         width: 100%;
         text-wrap: nowrap;
+        @include for-phone{
+            text-wrap: wrap;
+        }
 
     }
 
@@ -110,6 +113,9 @@
     span {
         display: block;
         text-wrap: nowrap;
+        @include for-phone{
+            text-wrap: wrap;
+        }
 
     }
 
