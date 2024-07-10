@@ -383,6 +383,7 @@ header nav .icons a i {
 }
 .first-slider .carousel-caption {
   align-content: center;
+  transform: translateY(-100%);
   align-items: center;
   left: 0;
   width: 100%;
@@ -1588,6 +1589,13 @@ header nav .icons a i {
   width: 100%;
   text-wrap: nowrap;
 }
+@media screen and (max-width: 576px) {
+  .menu-section a,
+  .lunch-menu-section a,
+  .dinner-menu-section a {
+    text-wrap: wrap;
+  }
+}
 .menu-section span,
 .lunch-menu-section span,
 .dinner-menu-section span {
@@ -1646,6 +1654,12 @@ header nav .icons a i {
 .dinner-menu-section span {
   display: block;
   text-wrap: nowrap;
+}
+@media screen and (max-width: 576px) {
+  .lunch-menu-section span,
+  .dinner-menu-section span {
+    text-wrap: wrap;
+  }
 }
 .lunch-menu-section img,
 .dinner-menu-section img {
