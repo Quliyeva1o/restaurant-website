@@ -384,6 +384,7 @@ header nav .icons a i {
 .first-slider .carousel-caption {
   align-content: center;
   transform: translateY(-100%);
+  height: auto !important;
   align-items: center;
   left: 0;
   width: 100%;

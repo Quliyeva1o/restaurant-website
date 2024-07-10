@@ -6,6 +6,7 @@
 
         align-content: center;
         transform: translateY(-100%);
+        height: auto!important;
         align-items: center;
         left: 0;
         @include size(100%, 100%, 0, 0);
